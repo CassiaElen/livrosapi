@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: livrosapi
+    runtime: docker
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: <sua-URL-do-PostgreSQL>
+      - key: SPRING_DATASOURCE_USERNAME
+        value: <seu-usuário>
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: <sua-senha>
