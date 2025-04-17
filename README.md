@@ -2,6 +2,8 @@
 
 Desafio Dio Publicando Sua API REST na Nuvem. API RESTful desenvolvida com Java 17 e Spring Boot 3 para gerenciar um catálogo de livros e autores. A aplicação está preparada para deploy com Docker e hospedada na plataforma Render, utilizando banco de dados PostgreSQL.
 
+
+
 ## 🖊️ Diagrama de Classes
 ```mermaid
 classDiagram
@@ -43,6 +45,7 @@ classDiagram
 ```
 
 
+
 ## 🚀 Tecnologias Utilizadas
 
 - ✅ Java 17  
@@ -53,9 +56,11 @@ classDiagram
 - ✅ Render (Deploy automatizado)  
 
 
+
 ## 📚 Endpoints da API
 
 A API expõe os seguintes endpoints para gerenciamento de autores e livros:
+
 
 #### 📖 Autores
 
@@ -66,6 +71,7 @@ A API expõe os seguintes endpoints para gerenciamento de autores e livros:
 |POST	 |/autores     |Cria um novo autor      |
 |DELETE	 |/autores/{id}|Deleta um autor pelo ID |
 
+
 #### 📘 Livros
 
 | Método | Endpoint   | Descrição              |
@@ -74,6 +80,8 @@ A API expõe os seguintes endpoints para gerenciamento de autores e livros:
 |GET	 |/livros/{id}|Retorna um livro pelo ID|
 |POST	 |/livros	  |Cria um novo livro      |
 |DELETE	 |/livros/{id}|Deleta um livro pelo ID |
+
+
 
 ## 🔗 Acessar a API
 
