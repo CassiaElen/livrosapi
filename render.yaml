@@ -5,8 +5,8 @@ services:
     dockerfilePath: Dockerfile
     envVars:
       - key: SPRING_DATASOURCE_URL
-        value: <sua-URL-do-PostgreSQL>
+        value: <postgresql://livrosapi_db_user:Ltlhv8iTMrxVeICqjgIyIhsKNbem4qVi@dpg-cvvv5feuk2gs73dncv20-a/livrosapi_db>
       - key: SPRING_DATASOURCE_USERNAME
-        value: <seu-usuário>
+        value: <livrosapi_db_user>
       - key: SPRING_DATASOURCE_PASSWORD
-        value: <sua-senha>
+        value: <Ltlhv8iTMrxVeICqjgIyIhsKNbem4qVi>
