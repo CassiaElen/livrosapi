@@ -4,9 +4,9 @@ services:
     runtime: docker
     dockerfilePath: Dockerfile
     envVars:
-      - key: SPRING_DATASOURCE_URL
+      - key: DATASOURCE_URL
         value: jdbc:postgresql://dpg-cvvv5feuk2gs73dncv20-a.oregon-postgres.render.com:5432/livrosapi_db
-      - key: SPRING_DATASOURCE_USERNAME
+      - key: DATASOURCE_USERNAME
         value: livrosapi_db_user
-      - key: SPRING_DATASOURCE_PASSWORD
+      - key: DATASOURCE_PASSWORD
         value: Ltlhv8iTMrxVeICqjgIyIhsKNbem4qVi
